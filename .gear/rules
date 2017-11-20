@@ -1,0 +1,3 @@
+tar: @version@:.
+diff: 0.0.20140107:. 0.0.20140107-compilation-fixes:. name=@name@-0.0.20140107-compilation-fixes.patch
+diff: @version@-master:. .
