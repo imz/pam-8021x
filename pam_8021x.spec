@@ -1,6 +1,6 @@
 Name: pam_8021x
 Version: 0.0.20140107
-Release: alt1
+Release: alt0.M80P.1
 
 Summary: Pluggable Authentication Module for 802.1x authentication protocol
 
@@ -69,5 +69,8 @@ rm -f LICENSE
 %_pam_modules_dir/*
 
 %changelog
+* Tue Nov 21 2017 Ivan Zakharyaschev <imz@altlinux.org> 0.0.20140107-alt0.M80P.1
+- built for p8
+
 * Mon Nov 20 2017 Ivan Zakharyaschev <imz@altlinux.org> 0.0.20140107-alt1
 - initial build for ALT Sisyphus.
